@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Three.js Boilerplate</title>
+        <style>html,body{height:100%;padding:0;margin:0;overflow:hidden;background:#000000;}</style>
+        <script src="three.js"></script>
+        <script>
+            let projectNumber = 141;
+            let hash = '0x';
+            for( var i = 0; i < 64; i++ ) hash += Math.floor( Math.random() * 16 ).toString( 16 );
+            let tokenData = { hash : hash, tokenId : ( projectNumber * 1000000 + Math.floor( Math.random() * 1000 ) ).toString( ) };
+        </script>
+        <script src="main.js"></script>
+    </head>
+    <body></body>
+</html>
